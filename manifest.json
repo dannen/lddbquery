@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "LDDB Search Plugin",
+    "version": "1.0",
+    "description": "Search LDDB and display results in a new tab",
+    "permissions": [
+      "tabs"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icons/icon.png"
+      }
+    },
+    "icons": {
+      "48": "icons/icon.png"
+    }
+  }
+  
